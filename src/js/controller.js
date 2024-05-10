@@ -79,7 +79,7 @@ const controlAddBookmark = function () {
   else if (model.state.recipe.bookmarked)
     model.deleteBookmark(model.state.recipe.id);
 
-  console.log(model.state.recipe);
+  // console.log(model.state.recipe);
 
   // 2) Update recipe view
   recipeView.update(model.state.recipe);
